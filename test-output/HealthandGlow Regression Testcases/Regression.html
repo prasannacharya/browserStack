@@ -1,0 +1,180 @@
+<html>
+<head>
+<title>TestNG:  Regression</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 09 15:15:12 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>187 seconds (187353 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.LandingScreenTest.landingScreenLableTest()'><b>landingScreenLableTest</b><br>Test class: tests.LandingScreenTest<br/>
+<a href="#Output-254955665" onClick='toggleBox("Output-254955665", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-254955665" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-254955665">
+Verifying the landing  screen----------!!!<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>tests.LandingScreenTest@479d31f3</td></tr>
+<tr>
+<td title='tests.HamburgerMenuTest.hamburgerLabelTest()'><b>hamburgerLabelTest</b><br>Test class: tests.HamburgerMenuTest<br/>
+<a href="#Output-444127949" onClick='toggleBox("Output-444127949", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-444127949" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-444127949">
+Verifying the hamburger menus ......please wait.!!!....<br/>
+Scrolling the screen please wait..!!!!!1<br/>
+Scroll to bottom  completed..!!!..please continue<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>tests.HamburgerMenuTest@123ef382</td></tr>
+<tr>
+<td title='tests.LoginScreenTest.clickOnMobileTest()'><b>clickOnMobileTest</b><br>Test class: tests.LoginScreenTest<br/>
+<a href="#Output-2065730373" onClick='toggleBox("Output-2065730373", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2065730373" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2065730373">
+clicking on the Mobile Link Please wait....!!!<br/>
+Success..!!!!!<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>tests.LoginScreenTest@61862a7f</td></tr>
+<tr>
+<td title='tests.LoginScreenTest.clickOnFacebookTest()'><b>clickOnFacebookTest</b><br>Test class: tests.LoginScreenTest<br/>
+<a href="#Output-1272753974" onClick='toggleBox("Output-1272753974", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1272753974" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1272753974">
+clicking on the Facebook Link Please wait....!!!<br/>
+Success..!!!!!<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>tests.LoginScreenTest@61862a7f</td></tr>
+<tr>
+<td title='tests.LandingScreenTest.splashScreenTest()'><b>splashScreenTest</b><br>Test class: tests.LandingScreenTest<br/>
+<a href="#Output-205615258" onClick='toggleBox("Output-205615258", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-205615258" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-205615258">
+Verifying the splash screen.....Please wait....!!!<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>tests.LandingScreenTest@479d31f3</td></tr>
+<tr>
+<td title='tests.LoginScreenTest.LoginScrnTest()'><b>LoginScrnTest</b><br>Test class: tests.LoginScreenTest<br/>
+<a href="#Output-1402333753" onClick='toggleBox("Output-1402333753", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1402333753" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1402333753">
+Verifying the login popup....Please wait..!!!!<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>tests.LoginScreenTest@61862a7f</td></tr>
+<tr>
+<td title='tests.LandingScreenTest.footerMenuTest()'><b>footerMenuTest</b><br>Test class: tests.LandingScreenTest<br/>
+<a href="#Output-1340051218" onClick='toggleBox("Output-1340051218", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1340051218" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1340051218">
+Validating the footer menu ....Please wait....!!!!<br/>
+</div>
+</td>
+<td></td>
+<td>30</td>
+<td>tests.LandingScreenTest@479d31f3</td></tr>
+<tr>
+<td title='tests.LoginScreenTest.clickOnGoogleTest()'><b>clickOnGoogleTest</b><br>Test class: tests.LoginScreenTest<br/>
+<a href="#Output-161982472" onClick='toggleBox("Output-161982472", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-161982472" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-161982472">
+clicking on the Google Link Please wait....!!!<br/>
+Success..!!!!!<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>tests.LoginScreenTest@61862a7f</td></tr>
+</table><p>
+</body>
+</html>

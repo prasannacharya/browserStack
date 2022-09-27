@@ -1,0 +1,16 @@
+tests/GlowPlatinumTest.class
+tests/PersonaliseTest.class
+tests/ProfileScreenTest.class
+tests/LoginwithMobileTest.class
+tests/GlowGoldScreenTest.class
+tests/LandingScreenTest.class
+tests/GlowRewardScreenTest.class
+tests/StoreLocatorTest.class
+tests/HamburgerMenuTest.class
+tests/GlowTitaniumTest.class
+tests/SettingScreenTest.class
+tests/GlowSilverTest.class
+tests/RegisterTest.class
+tests/LoginScreenTest.class
+tests/SaveAddressTest.class
+tests/EditProfileTest.class

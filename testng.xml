@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HealthandGlow Regression Testcases">
+
+	<!-- <listeners> <listener class-name="com.ExtentReportListener.ExtentReportListener"/> 
+		</listeners> -->
+	<test name="Regression">
+		<classes>
+
+			<class name="tests.LandingScreenTest" />
+			<class name="tests.HamburgerMenuTest" />
+			 <class name="tests.LoginScreenTest" />
+		<!-- <class name="tests.RegisterTest" />
+			<class name="tests.LoginwithMobileTest" />
+			<class name="tests.ProfileScreenTest" />
+			<class name="tests.EditProfileTest" />
+			<class name="tests.SaveAddressTest" />
+			<class name="tests.PersonaliseTest" />
+			<class name="tests.GlowRewardScreenTest" />
+			<class name="tests.GlowSilverTest" />
+			<class name="tests.GlowGoldScreenTest" />
+			<class name="tests.GlowPlatinumTest" />
+			<class name="tests.GlowTitaniumTest" />
+			<class name="tests.SettingScreenTest" />
+			<class name="tests.StoreLocatorTest" /> -->
+
+
+			<!--	<class name="tests.LoginwithMobileTest" />	-->
+
+
+		</classes>
+	</test> <!-- Default test -->
+</suite> <!-- Default suite -->

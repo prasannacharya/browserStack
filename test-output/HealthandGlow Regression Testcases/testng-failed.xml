@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HealthandGlow Regression Testcases]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="tests.LoginScreenTest">
+        <methods>
+          <include name="getResult"/>
+          <include name="clickOnGoogleTest"/>
+          <include name="ConnectToBrowserStack"/>
+          <include name="clickOnMobileTest"/>
+          <include name="LoginScrnTest"/>
+          <include name="setUp"/>
+          <include name="clickOnFacebookTest"/>
+          <include name="flushReport"/>
+          <include name="shutDownServer"/>
+          <include name="setUpReport"/>
+        </methods>
+      </class> <!-- tests.LoginScreenTest -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [HealthandGlow Regression Testcases] -->
